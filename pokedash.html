@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Varela+Round&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="https://img.icons8.com/color/50/000000/pokedex.png" type="image/icon type">
+    <title>Pokédex</title>
+</head>
+<body>
+    <nav id="navBar">
+        <img src="https://img.icons8.com/color/96/000000/open-pokeball--v2.png" alt="" id="navPic">
+        <div id="input">      
+            <input type="text" id="inputBox" placeholder="Enter Pokemon Name/ID" name='name'>
+            <div id="RHSbuttons">
+                <button id="clearButton">X</button>             
+            </div>
+        </div>
+        <button id="searchButton">GO</button>
+        <div>
+            <button id="previousButton">←</button>
+            <button id="nextButton">→</button>
+        </div>
+    </nav>
+    
+
+    <div id="profileName"></div>
+    <div id="pokedex">
+        
+        <div id="profilePic"></div>
+        <div id="basicInfo">
+            
+            <div id="basicerInfo">
+                <div id="description"></div>
+                <div id="typeList"></div>
+                <div id="HW"></div>
+                <div id="statList"></div>
+                
+            </div>
+        </div>
+        <div id="moveList">
+            <div id="moveSelect"></div>
+            <div id="moveDescription"></div>
+        </div>
+        <div id="evolutions"></div>
+        <div id="abilityList"></div>
+        
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

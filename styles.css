@@ -1,0 +1,306 @@
+body {
+    font-family: 'Varela Round', sans-serif;
+    background-color: black;
+    color: blanchedalmond;
+    margin: 0px;
+    margin: 0px;
+    transition: 0.5s ease-in-out all;
+}
+h2 {
+    display: inline-block;
+    margin: 5px;
+}
+
+#navPic {
+    height: 35px;
+    margin: 5px;
+}
+
+#navBar {
+    background-color: rgba(0, 0, 102, 0.8);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#clearButton {
+    outline: none;
+    border: none;
+    padding: 0px;
+    padding-right: 5px;
+    background-color: black;
+    color:  blanchedalmond;
+}
+#clearButton:hover {
+    transition: 0.15s ease-in-out all;
+    transform: scale(1.2);
+}
+
+#searchButton {
+    outline: none;
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 0px 10px;
+    font-size: large;
+    background-color: black;
+    color: blanchedalmond;
+}
+
+#searchButton:hover {
+    
+    transition: 0.15s ease-in-out all;
+    transform: scale(1.2);
+}
+
+#input {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    min-width: 30%;
+    border-radius: 20px;
+    background-color: black;  
+    border: darkmagenta 2px solid;
+}
+#input:hover {
+    border-color: cyan;
+    transition: 0.2s ease-in-out;
+}
+
+#inputBox {
+    background-color: black;
+    color: white;
+    outline: none;
+    border: none;
+}
+#inputBox:focus {
+    background-color: black;
+    color: white;
+    outline: none;
+    border: none;
+}
+
+#previousButton {
+    height: 35px;
+    width: 35px;
+    border-radius: 20px;
+    border-width: 3px;
+    border-color: cyan;
+    color: cyan;
+    background-color: black;
+    font-size: large;
+}
+#previousButton:hover {
+    transform: scale(1.1);
+    transition: 0.15s ease all;
+}
+
+#nextButton {
+    height: 35px;
+    width: 35px;
+    border-radius: 20px;
+    border-width: 3px;
+    border-color: cyan;
+    color: cyan;
+    background-color: black;
+    font-size: large;
+}
+#nextButton:hover {
+    transform: scale(1.1);
+    transition: 0.15s ease all;
+}
+
+#profilePic img {
+    height: 380px;
+    width: 380px;
+    box-sizing: border-box;
+}
+
+#pokedex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* transition: 2s ease-in all; */
+}
+
+#basicInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: column;
+}
+
+#evolutions img {
+    height: 120px;
+    width: 120px;
+}
+#evolutions button {
+    height: 120px;
+    width: 120px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
+#basicerInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 420px;
+}
+
+#description {
+    padding: 5px 5px;
+}
+
+.tag {
+    color: #7d7d7d;
+    font-size: 20px;
+}
+
+.border {
+    display: inline-block;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+#profileName {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    font-size: 3em;
+}
+
+#typeList, #HW, #abilityList {
+    margin: 10px;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+#moveList {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+}
+
+#moveSelect {
+    margin: 5px;
+}
+
+#moveSelect select {
+    background-color: transparent;
+    color: blanchedalmond;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: large;
+}
+#moveSelect select option {
+    position: absolute;
+    background-color: black;
+}
+
+#moveDescription {
+    margin-top: 10px;
+}
+
+#HW span {
+    margin: 0px 10px;
+}
+
+/* #profileName #typeList, #HW, #abilityList{
+    margin-top: 20px;
+    margin-bottom: 20px;
+} */
+
+.typeBox {
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.abilityBox {
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+div.barRating {
+    border-radius: 3px;
+    height: 10px;
+}
+
+tr {
+    display: flex;
+    justify-content: center;
+}
+
+td {
+    display: flexbox;
+    text-align: center;
+    padding: 5px;
+}
+
+.normal {
+    background-color: #a8a878;
+}
+.fire {
+    background-color: #f08030;
+}
+.fighting {
+    background-color: #c03028;
+}
+.water {
+    background-color: #6890f0;
+}
+.flying {
+    background-color: #a890f0;
+}
+.grass {
+    background-color: #78c850;
+}
+.poison {
+    background-color: #A040A0;
+}
+.electric {
+    background-color: #f8d030;
+}
+.ground {
+    background-color: #e0c068;
+}
+.psychic {
+    background-color: #f85888;
+}
+.rock {
+    background-color: #b8a038;
+}
+.ice {
+    background-color: #98d8d8;
+}
+.bug {
+    background-color: #a8b820;
+}
+.dragon {
+    background-color: #7038f8;
+}
+.ghost {
+    background-color: #705898;
+}
+.dark {
+    background-color: #705848;
+}
+.steel {
+    background-color: #b8b8d0;
+}
+.fairy {
+    background-color: #ee99ac;
+}
